@@ -1,0 +1,41 @@
+.product-list{
+    display: flex;
+}
+
+.product-card{
+    border: 1px solid rgb(237, 227, 227);
+    border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+    img{
+        border-radius: 20px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 18px;
+        color: rgb(52, 194, 52);
+        del{
+            color: gray;
+            margin-right: 10px;
+        }
+    }
+    h3,h5,p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    span{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 0.2rem;
+        background-color: rgb(151, 219, 151);
+        border-radius: 10px;
+    }
+}
